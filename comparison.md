@@ -1,0 +1,7 @@
+In my HTML file written by hand, I was able to structure the semantic HTML tags better than the basic AI. In my handwritten HTML, I placed my headings inside their respective `<section>` tags and put the `<h1>` heading inside a `<header>` tag. The basic AI didn't bother to wrap the `<h1>` or `<h2>` headings in semantic containers. Although the basic AI used the correct heading hierarchy, there were no clearly defined sections in `basic-ai.html`.
+
+In `directed.html`, I was able to tell Claude to use semantic HTML tags such as `<section>`, `<main>`, `<h1>`, `<h2>`, `<header>`, and `<footer>`. One difference between my handwritten HTML and the directed AI version was that the directed AI wrapped the entire main content inside a `<main>` tag, whereas I forgot to do that in mine.
+
+I would accept the use of `<section>` because it helps organize related content under meaningful headings. I would also accept the `<main>` tag because it identifies the primary content of the webpage. However, I would improve the basic AI version by adding these semantic elements instead of leaving the headings and paragraphs directly inside `<body>`.
+
+Overall, I think the directed AI version best represents my content because it has the clearest semantic structure. One improvement I would make is to change its generic footer to something more relevant to Bento.
